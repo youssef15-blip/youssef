@@ -139,8 +139,8 @@ body {
   padding: 15px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   max-width: 450px;
-  font-family: Arial, sans-serif;
 }
+
 .projects{
   display: grid;
   grid-template-columns: repeat(3, 1fr); 
@@ -154,16 +154,25 @@ body {
 
 .content-section{
     background-color:#e5e7eb ;
+    background: #e5e7eb;
+    border-radius: 12px;
+    padding: 20px;
 }
 
-.announcement-card,
+
+
+
 .trending-card {
-    background: #e5e7eb;
+    background: #e5e7eb ;
     padding: 20px;
     border-radius: 10px;
 
 }
-
+.announcement-card{
+    background: #e5e7eb ;
+    padding: 20px;
+    border-radius: 10px;
+}
 .announcement-item h4 {
     margin-bottom: 5px;
 }
